@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.arte_tv" name="Arte.tv" version="0.0.1" provider-name="eco-plus">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="de">ARTE.tv</summary>
+        <summary lang="en">ARTE.tv</summary>
+        <summary lang="fr">ARTE.tv</summary>
+        <description lang="de">Sehen Sie sich Videos auf ARTE.tv an</description>
+        <description lang="en">Watch videos on ARTE.tv</description>
+        <description lang="fr">Regarder des videos sur ARTE.tv</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>https://github.com/eco-plus/arte</source>
+	<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+	</assets>
+    </extension>
+</addon>
+
+<addon id="repository.eco" name="repository Eco" version="0.1" provider-name="eco-plus">
+	<extension point="xbmc.addon.repository" name="repository Eco">
+		<info compressed="false">https://raw.githubusercontent.com/eco-plus/arte/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/eco-plus/arte/master/addons.xml-md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/eco-plus/arte/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Eco repo</summary>
+		<description>Eco repo</description>
+		<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
