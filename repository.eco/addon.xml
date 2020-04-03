@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.eco" name="repository Eco" version="0.1" provider-name="eco-plus">
 	<extension point="xbmc.addon.repository" name="repository Eco">
-		<info compressed="false">https://raw.githubusercontent.com/eco-plus/arte/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/eco-plus/arte/master/addons.xml-md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/eco-plus/arte/master</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/eco-plus/plugin.video.arte/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/eco-plus/plugin.video.arte/master/addons.xml-md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/eco-plus/plugin.video.arte/master</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Eco repo</summary>
